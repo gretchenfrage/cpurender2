@@ -1,0 +1,19 @@
+[package]
+name = "cpurender"
+version = "0.1.0"
+authors = ["Phoenix Kahlo <kahlo.phoenix@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+glium = "0.25.1"
+image = "0.22.2"
+rand = "0.7.2"
+crossbeam = "0.7.2"
+log = "0.4.8"
+rayon = "1.2.0"
+
+[dependencies.vek]
+version = "0.9.9"
+features = [
+    "repr_simd",
+]
