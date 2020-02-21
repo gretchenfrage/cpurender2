@@ -3,6 +3,9 @@ name = "cpurender"
 version = "0.1.0"
 authors = ["Phoenix Kahlo <kahlo.phoenix@gmail.com>"]
 edition = "2018"
+homepage = "http://phoenixkahlo.com"
+description = "Utility for CPU-based graphics prototyping"
+license-file = "LICENSE.md"
 
 [dependencies]
 glium = "0.25.1"
